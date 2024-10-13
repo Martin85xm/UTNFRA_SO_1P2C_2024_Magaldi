@@ -1,0 +1,116 @@
+    1  sudo apt update
+    2  sudo apt install tree
+    3  ssh-keygen --help
+    4  ssh-keygen -t ed25519
+    5  ls -la /home/vagrant/.ssh/
+    6  cat /home/vagrant/.ssh/id_ed25519.pub 
+    7  mkdir repogit
+    8  pwd
+    9  cd repogit/
+   10  pwd
+   11  git clone https://github.com/upszot/UTN-FRA_SO_Examenes
+   12  git clone git@github.com:Martin85xm/UTNFRA_SO_1P2C_2024_Magaldi.git
+   13  pwd
+   14  ./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+   15  ls -l
+   16  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   17  ls -l
+   18  cd RTA_SCRIPT_Examen_20241013/
+   19  ls -l
+   20  vim Punto_A.sh 
+   21  chmod 755 Punto_A.sh 
+   22  sudo ./Punto_A.sh 
+   23  cd /
+   24  ls -l
+   25  tree Examenes-UTN/
+   26  cd home
+   27  cd vagrant/
+   28  cd repogit/
+   29  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   30  ls -l
+   31  cd RTA_SCRIPT_Examen_20241013/
+   32  ls -l
+   33  git add Punto_A.sh 
+   34  git status
+   35  git commit -m "add: Punto_A resuelto"
+   36  git status
+   37  git push
+   38  cd ..
+   39  ls -l
+   40  history >> historial_01.txt
+   41  cat historial_01.txt 
+   42  ls -l
+   43  git add historial_01.txt 
+   44  git status
+   45  git commit -m "add: agrego el primer historial"
+   46  git push
+   47  lsblk
+   48  ls -l
+   49  cd RTA_SCRIPT_Examen_20241013/
+   50  ls -l
+   51  cd ..
+   52  pwd
+   53  ls -l
+   54  cd repogit/
+   55  ls -l
+   56  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   57  ls -l
+   58  cd RTA_SCRIPT_Examen_20241013/
+   59  ls -l
+   60  vim Punto_D.sh 
+   61  chmod 755 Punto_B.sh 
+   62  ./Punto_B.sh 
+   63  cd ..
+   64  ls -l
+   65  cd ..
+   66  ls -l
+   67  cd repogit/
+   68  cd ..
+   69  ls -l
+   70  ll
+   71  ls -l
+   72  cd repogit/
+   73  ll
+   74  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   75  ls -l
+   76  cd RTA_SCRIPT_Examen_20241013/
+   77  ls -l
+   78  vim Punto_B.sh 
+   79  vim Punto_D.sh 
+   80  chmod 755 Punto_D.sh 
+   81  ./Punto_D.sh 
+   82  vim Punto_D.sh 
+   83  ./Punto_D.sh 
+   84  cd ..
+   85  ls -l
+   86  tree Estructura_Asimetrica/
+   87  tree Estructura_Asimetrica/ --noreport | pr -T -s''-w 80 --column 4
+   88  tree Estructura_Asimetrica/ --noreport |pr -T -s''-w 80 --column 4
+   89  tree Estructura_Asimetrica/ --noreport | pr -T -s''-w 80 --column 4
+   90  tree Estructura_Asimetrica/ --noreport | pr -T -s' '-w 80 --column 4
+   91  tree Estructura_Asimetrica/ --noreport | pr -T -s"-w 80 --column 4[A
+   92  tree Estructura_Asimetrica/ --noreport | pr -T -s' '-w 80 --column 4
+   93  cls
+   94  exit
+   95  ls -l
+   96  tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+   97  ls -l
+   98  cd Estructura_Asimetrica/
+   99  tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+  100  cd ..
+  101  tree Estructura_Asimetrica/
+  102  ls -l
+  103  cd repogit/
+  104  ls -l
+  105  cd UTNFRA_SO_1P2C_2024_Magaldi/
+  106  ls -l
+  107  cd RTA_SCRIPT_Examen_20241013/
+  108  ls -l
+  109  git add Punto_D.sh
+  110  git status
+  111  git commit -m "add: Punto_D resuelto"
+  112  git push
+  113  ls -l
+  114  cd ..
+  115  ls -l
+  116  history >> historial_02.txt
