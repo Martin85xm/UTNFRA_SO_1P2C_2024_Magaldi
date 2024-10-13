@@ -1,0 +1,4 @@
+Mi IP Publica es: 181.167.192.203
+Mi usuario es: vagrant
+El Hash de mi Usuario es: $y$j9T$YKDqIFD.esIbEj1zqtfhF1$2BxW2Gvo/GCjKPKWJ75Rb3jADWRLpZ7W9MOZmyB5RX2
+La URL de mi repositorio es: git@github.com:Martin85xm/UTNFRA_SO_1P2C_2024_Magaldi.git
