@@ -1,0 +1,40 @@
+    1  sudo apt update
+    2  sudo apt install tree
+    3  ssh-keygen --help
+    4  ssh-keygen -t ed25519
+    5  ls -la /home/vagrant/.ssh/
+    6  cat /home/vagrant/.ssh/id_ed25519.pub 
+    7  mkdir repogit
+    8  pwd
+    9  cd repogit/
+   10  pwd
+   11  git clone https://github.com/upszot/UTN-FRA_SO_Examenes
+   12  git clone git@github.com:Martin85xm/UTNFRA_SO_1P2C_2024_Magaldi.git
+   13  pwd
+   14  ./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+   15  ls -l
+   16  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   17  ls -l
+   18  cd RTA_SCRIPT_Examen_20241013/
+   19  ls -l
+   20  vim Punto_A.sh 
+   21  chmod 755 Punto_A.sh 
+   22  sudo ./Punto_A.sh 
+   23  cd /
+   24  ls -l
+   25  tree Examenes-UTN/
+   26  cd home
+   27  cd vagrant/
+   28  cd repogit/
+   29  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   30  ls -l
+   31  cd RTA_SCRIPT_Examen_20241013/
+   32  ls -l
+   33  git add Punto_A.sh 
+   34  git status
+   35  git commit -m "add: Punto_A resuelto"
+   36  git status
+   37  git push
+   38  cd ..
+   39  ls -l
+   40  history >> historial_01.txt
