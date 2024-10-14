@@ -1,0 +1,268 @@
+    1  sudo apt update
+    2  sudo apt install tree
+    3  ssh-keygen --help
+    4  ssh-keygen -t ed25519
+    5  ls -la /home/vagrant/.ssh/
+    6  cat /home/vagrant/.ssh/id_ed25519.pub 
+    7  mkdir repogit
+    8  pwd
+    9  cd repogit/
+   10  pwd
+   11  git clone https://github.com/upszot/UTN-FRA_SO_Examenes
+   12  git clone git@github.com:Martin85xm/UTNFRA_SO_1P2C_2024_Magaldi.git
+   13  pwd
+   14  ./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+   15  ls -l
+   16  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   17  ls -l
+   18  cd RTA_SCRIPT_Examen_20241013/
+   19  ls -l
+   20  vim Punto_A.sh 
+   21  chmod 755 Punto_A.sh 
+   22  sudo ./Punto_A.sh 
+   23  cd /
+   24  ls -l
+   25  tree Examenes-UTN/
+   26  cd home
+   27  cd vagrant/
+   28  cd repogit/
+   29  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   30  ls -l
+   31  cd RTA_SCRIPT_Examen_20241013/
+   32  ls -l
+   33  git add Punto_A.sh 
+   34  git status
+   35  git commit -m "add: Punto_A resuelto"
+   36  git status
+   37  git push
+   38  cd ..
+   39  ls -l
+   40  history >> historial_01.txt
+   41  cat historial_01.txt 
+   42  ls -l
+   43  git add historial_01.txt 
+   44  git status
+   45  git commit -m "add: agrego el primer historial"
+   46  git push
+   47  lsblk
+   48  ls -l
+   49  cd RTA_SCRIPT_Examen_20241013/
+   50  ls -l
+   51  cd ..
+   52  pwd
+   53  ls -l
+   54  cd repogit/
+   55  ls -l
+   56  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   57  ls -l
+   58  cd RTA_SCRIPT_Examen_20241013/
+   59  ls -l
+   60  vim Punto_D.sh 
+   61  chmod 755 Punto_B.sh 
+   62  ./Punto_B.sh 
+   63  cd ..
+   64  ls -l
+   65  cd ..
+   66  ls -l
+   67  cd repogit/
+   68  cd ..
+   69  ls -l
+   70  ll
+   71  ls -l
+   72  cd repogit/
+   73  ll
+   74  cd UTNFRA_SO_1P2C_2024_Magaldi/
+   75  ls -l
+   76  cd RTA_SCRIPT_Examen_20241013/
+   77  ls -l
+   78  vim Punto_B.sh 
+   79  vim Punto_D.sh 
+   80  chmod 755 Punto_D.sh 
+   81  ./Punto_D.sh 
+   82  vim Punto_D.sh 
+   83  ./Punto_D.sh 
+   84  cd ..
+   85  ls -l
+   86  tree Estructura_Asimetrica/
+   87  tree Estructura_Asimetrica/ --noreport | pr -T -s''-w 80 --column 4
+   88  tree Estructura_Asimetrica/ --noreport |pr -T -s''-w 80 --column 4
+   89  tree Estructura_Asimetrica/ --noreport | pr -T -s''-w 80 --column 4
+   90  tree Estructura_Asimetrica/ --noreport | pr -T -s' '-w 80 --column 4
+   91  tree Estructura_Asimetrica/ --noreport | pr -T -s"-w 80 --column 4[A
+   92  tree Estructura_Asimetrica/ --noreport | pr -T -s' '-w 80 --column 4
+   93  cls
+   94  exit
+   95  ls -l
+   96  tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+   97  ls -l
+   98  cd Estructura_Asimetrica/
+   99  tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+  100  cd ..
+  101  tree Estructura_Asimetrica/
+  102  ls -l
+  103  cd repogit/
+  104  ls -l
+  105  cd UTNFRA_SO_1P2C_2024_Magaldi/
+  106  ls -l
+  107  cd RTA_SCRIPT_Examen_20241013/
+  108  ls -l
+  109  git add Punto_D.sh
+  110  git status
+  111  git commit -m "add: Punto_D resuelto"
+  112  git push
+  113  ls -l
+  114  cd ..
+  115  ls -l
+  116  history >> historial_02.txt
+  117  cat historial_02.txt 
+  118  ls -l
+  119  git add historial_02.txt
+  120  git status
+  121  git commit -m "add: agrego mi segundo historial"
+  122  git push
+  123  ls -l
+  124  cd repogit/
+  125  ls -l
+  126  cd UTNFRA_SO_1P2C_2024_Magaldi/
+  127  ls -l
+  128  cd RTA_ARCHIVOS_Examen_20241013/
+  129  ls -l
+  130  cd ..
+  131  ls -l
+  132  cd RTA_SCRIPT_Examen_20241013/
+  133  ls -l
+  134  cd ..
+  135  ls -l
+  136  cd RTA_SCRIPT_Examen_20241013/
+  137  ls -l
+  138  vim Punto_E.sh 
+  139  chmod 755 Punto_E.sh 
+  140  ./Punto_E.sh 
+  141  cd ..
+  142  ls -l
+  143  cd RTA_ARCHIVOS_Examen_20241013/
+  144  ls -l
+  145  cat Filtro_Basico.txt 
+  146  cd ..
+  147  ls -l
+  148  git add RTA_ARCHIVOS_Examen_20241013/
+  149  git status
+  150  git commit -m "add: agregando carpeta con Filtro_Basico.txt"
+  151  git push
+  152  ls -l
+  153  cd RTA_SCRIPT_Examen_20241013/
+  154  ls -l
+  155  git add Punto_E.sh 
+  156  git status
+  157  git commit -m "add: Punto_E resuelto"
+  158  git push
+  159  cd ..
+  160  ls -l
+  161  history >> historial_03.txt
+  162  cat historial_03.txt 
+  163  ls -l
+  164  git add historial_03.txt 
+  165  git status
+  166  git commit -m "add:agrego mi tercer historial"
+  167  git push
+  168  pwd
+  169  curl-s ifconfig.me
+  170  pwd
+  171  git remote get-url origin
+  172  curl -s ifconfig.me
+  173  whoami
+  174  sudo awk -F: '/^vvagrant/ {print $0}' /etc/shadow | awk -F: '{print $2}'
+  175  sudo awk -F: '/^vagrant/ {print $0}' /etc/shadow | awk -F: '{print $2}'
+  176  ls -l
+  177  git -C /home/vboxuser/repogit/UTNFRA_SO_1P2C_2024_Magaldi/ remote get-url origin
+  178  git -C /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Magaldi/ remote get-url origin
+  179  ls -l
+  180  cd RTA_SCRIPT_Examen_20241013/
+  181  ls -l
+  182  vim Punto_F.sh 
+  183  chmod 755 Punto_F.sh 
+  184  ./Punto_F.sh 
+  185  cd ..
+  186  ls -l
+  187  cd RTA_A
+  188  cd RTA_ARCHIVOS_Examen_20241013/
+  189  ls -l
+  190  cat Filtro_Avanzado.txt 
+  191  ls -l
+  192  git add Filtro_Avanzado.txt 
+  193  git status
+  194  commit -m "add: agregando el Filtro_avanzado.txt"
+  195  git push
+  196  git status
+  197  git commit -m "add:agregando Filtro_Avanzado.txt"
+  198  git push
+  199  cd ..
+  200  ls -l
+  201  cd RTA_SCRIPT_Examen_20241013/
+  202  ls -l
+  203  git add Punto_F.sh 
+  204  git status
+  205  git commit -m "add: Punto_F resuelto"
+  206  git push
+  207  cd ..
+  208  ls -l
+  209  history >> historial_04.txt
+  210  cat historial_04.txt 
+  211  pwd
+  212  ls -l
+  213  git add historial_04.txt 
+  214  git status
+  215  git commit -m "add: agrego mi cuarto historial"
+  216  git push
+  217  sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}'
+  218  fdisk -l
+  219  sudo fdisk -l
+  220  exit
+  221  fdisk -l
+  222  sudo fdisk -l
+  223  sudo fdisk /dev/sdc
+  224  sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}'
+  225  sudo fdisk -l
+  226  sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}'
+  227  sudo fdiks -l
+  228  sudo fdisk -l
+  229  pwd
+  230  ls -l
+  231  cd /
+  232  ls -l
+  233  pwd
+  234  cd home
+  235  ls -l
+  236  cd ..
+  237  cd Examenes-UTN/
+  238  pwd
+  239  ls -l
+  240  cd ..
+  241  cd home
+  242  ls -l
+  243  cd vagrant/
+  244  ls -l
+  245  cd repogit
+  246  ls -l
+  247  cd UTNFRA_SO_1P2C_2024_Magaldi/
+  248  ls -l
+  249  cd RTA_SCRIPT_Examen_20241013/
+  250  ls -l
+  251  vim Punto_B.sh 
+  252  cat Punto_B.sh 
+  253  vim Punto_B.sh 
+  254  chmod 755 Punto_B.sh 
+  255  sudo ./Punto_B.sh 
+  256  vim Punto_B.sh 
+  257  sudo ./Punto_B.sh 
+  258  vim Punto_B.sh 
+  259  ./Punto_B.sh 
+  260  vim Punto_B.sh 
+  261  ls -l
+  262  git add Punto_B.sh 
+  263  git status
+  264  git commit -m "add: Punto_B resuelto"
+  265  git push
+  266  cd ..
+  267  ls -l
+  268  history >> historial_05.txt
